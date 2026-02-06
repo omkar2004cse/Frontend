@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    height: 100%;
+    width: 100px;
+}
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    text-align: center;
+}
+#container{
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+#box1{
+    background-color: red; 
+}
+#box2{
+    background-color: green;
+    height: 150px;
+}
+#box3{
+    background-color: aqua;
+    height: 75px;
+}
+#box4{
+    background-color: rgb(255, 0, 212);
+    height: 150px;
+    width: 150px;
+} 
+#box5{
+background-color: orangered;
+height: 200px;
+}
+#box6{
+    background-color: rgb(255, 251, 0);
+    height: 75px;
+   
+}
+

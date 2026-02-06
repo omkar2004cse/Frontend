@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body,html{
+    text-align: center;
+}
+div{
+    display: inline-block;
+    border: 2px solid black;
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+}
+#container{
+    display: flex;
+    /* flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse; */
+    flex-direction: row;
+    width: 800px;
+    height: 300px;
+}
+#box1{
+    background-color: red;
+}
+#box2{
+    background-color: green;
+}
+#box3{
+    background-color: rebeccapurple;
+}
+#box4{
+    background-color: rgb(247, 0, 255);
+}
+#box5{
+    background-color: blue;
+}

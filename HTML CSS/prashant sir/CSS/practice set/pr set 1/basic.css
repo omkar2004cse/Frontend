@@ -1,0 +1,12 @@
+*{
+    margin:0%;
+    padding: 0%;
+}
+h1{
+    color: red ;
+    text-align: center;
+}
+#heading{
+    background-color:aquamarine;
+    color: blue;
+}

@@ -1,0 +1,42 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    
+}
+div{
+    height: 100px;
+    width: 150px;
+    border: 2px solid black;
+    text-shadow:blue;
+    
+}
+#container{
+    height: 500px;
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-content: center;
+    align-content: flex-end; */
+    align-content: flex-start;
+}
+#box1{
+    background-color: red;
+}
+#box2{
+    background-color: green;
+    height: 150px;
+}
+#box3{
+    height: 75px;
+    background-color: rgb(255, 0, 255);
+}
+#box4{
+    background-color: blue;
+}
+#box5{
+    background-color: chartreuse;
+}

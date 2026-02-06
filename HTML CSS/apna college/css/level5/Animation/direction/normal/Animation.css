@@ -1,0 +1,31 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+div{
+    height: 100px;
+    width: 100px;
+    border:2px solid black;
+    display: flex;
+    position: absolute;
+   background-color: red;
+    animation-name: colorAnimate;
+    animation-duration: 1s;
+    animation-direction: normal;
+    animation-timing-function: steps(5);
+    animation-iteration-count:infinite;
+}
+@keyframes colorAnimate {
+    from{
+        left:0px;
+        background-color: red;
+    }
+    to{
+        left: 200px;
+        background-color: blue;
+    }
+}

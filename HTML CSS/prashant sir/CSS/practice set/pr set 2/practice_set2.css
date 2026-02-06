@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#task1{
+    background-color: aquamarine;
+    color: orangered;
+    opacity: 80%;
+}
+main{
+    background-color: burlywood;
+}
+#image{
+    height: 300px;
+    width: 500px;
+    background-image: url(pexels-photo-116675.jpeg);
+    background-size: cover; 
+    background-position: center;
+    color: whitesmoke;
+}

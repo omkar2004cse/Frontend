@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box{
+    
+    height: 300px;
+    width:500px;
+    border: 7px solid black;
+    background-image: url(image/Screenshot\ 2025-04-10\ 131429.png);
+    background-size: cover;
+}

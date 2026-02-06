@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+
+}
+#main{
+    height: 300px;
+    width: 800px;
+    background-color: whitesmoke;
+    border: 2px solid rgb(48, 47, 47);
+    border-radius: 10px;
+    display: flex;
+}
+#profile{
+    margin-top: 20px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-image: url(image/blue-circle-with-white-user_78370-4707.avif);
+    background-size: cover;
+}
+#info{
+    width: 600px;
+    height: 300px;
+    background-color:white;
+}
+.d{
+    height: 75px;
+    width: 600px;
+}
+#d1{
+    margin:10px;
+    display: flex;
+}
+#h{
+    margin-right: 50px;
+    margin-left: 30px;
+}
+#b1{
+    margin-right: 50px;
+}
+
+#d2{
+    display: flex;
+}
+.b{
+    margin-left: 40px;
+}
+#d3>h3{
+    margin-left: 30px;
+}
+#d3>h5{
+    margin-left: 30px;
+}
+#d4>b{
+    margin-left: 20px;
+}

@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 150px;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+}
+#box{
+    height: 400px;
+    width: 600px;
+}
+#box1{
+    margin-left: 10px;
+    background-color: red;
+}
+#box2{
+    background-color: blue;
+    height: 150px;
+}
+#box3{
+ height: 75px;
+    background-color: brown;
+}
+#box4{
+    background-color: chartreuse;
+}
+#box5{
+    background-color: purple;
+}

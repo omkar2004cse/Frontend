@@ -1,0 +1,58 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    height: 100%;
+    width: 100%;
+
+}
+div{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin: 50px;
+    position: relative;
+}
+#d1{
+    background-color: aqua;
+    animation: d1 5s ease infinite;
+}
+@keyframes d1{
+    from{
+        left:0px;
+        background-color: aqua;
+    }
+    to{
+        left: 250px;
+        background-color: red;
+    }
+}
+#d2{
+    background-color: chocolate;
+    animation: d2 7s linear infinite;
+}
+@keyframes d2{
+    from{
+        left: 0px;
+        background-color: chocolate;
+    }
+    to{
+        left: 400px;
+        background-color: rgb(0, 255, 34);
+    }
+}
+#d3{
+    background-color: rgb(255, 247, 0);
+    animation: d3 5s steps(5) infinite;
+}
+@keyframes d3{
+    from{
+        left: 0px;
+        background-color: rgb(255, 247, 0);
+    }
+    to{
+        left: 400px;
+        background-color: rgb(255, 0, 247);
+    }
+}

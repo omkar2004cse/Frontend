@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#div1{
+    text-decoration: underline dashed blue ;
+}
+#div2{
+    text-align: center;
+    text-decoration: overline double fuchsia;
+}
+#div3{
+    text-align: right;
+    text-decoration: line-through wavy red;
+}
+#div4{
+    text-align: center;
+    text-decoration: none;
+}

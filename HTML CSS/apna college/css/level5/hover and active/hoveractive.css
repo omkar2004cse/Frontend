@@ -1,0 +1,32 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}  
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    margin: 7px;
+}
+#d1{
+    background-color: rgb(255, 242, 0);
+}
+#d2{
+    background-color: coral;
+}
+#d1:hover{
+    background-color: red;
+}
+#d2:active{
+    background-color: blueviolet;
+}

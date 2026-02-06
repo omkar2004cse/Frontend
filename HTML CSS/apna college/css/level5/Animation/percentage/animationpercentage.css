@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    margin: 70px;
+    position: absolute;
+    animation: percentage 10s linear infinite;
+
+}
+@keyframes percentage{
+    0%{
+        left: 0px;
+        background-color: red;
+    }
+    25%{
+        left: 50px;
+        background-color: green;
+    }
+    50%{
+        left: 100px;
+        background-color: blue;
+    }
+    75%{
+        left:150px ;
+        background-color: yellow;
+    }
+    100%{
+        left: 200px;
+        background-color: red;
+    }
+}

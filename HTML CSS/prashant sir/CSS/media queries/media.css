@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    height: 500px;
+    width: 700px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    margin: 20px;
+}
+#b1{
+    background-color: red;
+}
+#b2{
+    background-color: blue;
+}
+#b3{
+    background-color: deeppink;
+}
+#b4{
+    background-color: darkorange;
+}
+@media screen and (max-width:357px) {
+    #container{
+        display: block;
+        background-color: aquamarine;
+    }
+    .box{
+        margin-left: 250px;
+    }
+}

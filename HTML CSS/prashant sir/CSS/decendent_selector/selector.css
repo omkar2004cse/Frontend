@@ -1,0 +1,16 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+h1{
+    color: darkmagenta;
+}
+p{
+    color: chartreuse;
+}
+div h1{
+    color: orangered;
+}
+div p{
+    color: blue;
+}

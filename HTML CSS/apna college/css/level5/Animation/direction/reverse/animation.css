@@ -1,0 +1,29 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+div{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    position:absolute;
+    animation-name: directionreverse;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-direction: reverse;
+    animation-iteration-count: infinite;
+}
+@keyframes directionreverse{
+    from{
+        left: 0px;
+        background-color: red;
+    }
+    to{
+        left: 200px;
+        background-color: chartreuse;
+    }
+}

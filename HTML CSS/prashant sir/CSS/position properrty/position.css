@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    height: 100px; 
+    width: 100px;
+    border:2px solid black;
+    text-align: center;
+}
+#b1{
+    background-color: red;
+    position: static;
+}
+#b2{
+    background-color: blue;
+    left: 50px;
+    top: 100px;
+    position: relative;
+  
+}
+#b3{
+    background-color: greenyellow;
+    position: absolute;
+    top: 150px;
+}
+#b4{
+    background-color: brown;
+    position: fixed;
+    right: 50px;
+}

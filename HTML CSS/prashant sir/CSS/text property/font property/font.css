@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    text-decoration: underline dotted red;
+}
+#size{
+    font-size: 8px;
+}
+#size p{
+    font-size: 50px;
+}
+#weight{
+    font-weight: bolder;
+}
+#weight p{
+    font-weight: 400;
+}
+#style{
+    font-style: italic;
+}
+#fontfamily{
+    font-family: "Dancing Script", serif;
+}
+/* #icon{
+    <span class="material-symbols-outlined">
+search
+</span>
+} */

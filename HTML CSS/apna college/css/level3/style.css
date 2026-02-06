@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    margin: 10px;
+    display: inline-block;
+}
+h1{
+    color: rgb(0, 0, 255);
+}
+#box1{
+    position: static;
+    background-color: red;
+}
+#box2{
+    position: relative;
+    top:30px;
+    background-color: rgb(234, 0, 255);
+}
+#box3{
+    position: absolute;
+    top:80px;
+    right: 10px;
+    background-color: chartreuse;
+}
+#box4{
+    position: fixed;
+    bottom: 10px;
+    background-color: deeppink;
+}
+#box5{
+    position: sticky;
+    
+    right: 10px;
+    background-color: greenyellow;
+}

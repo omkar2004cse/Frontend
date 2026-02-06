@@ -1,0 +1,52 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+#d1{
+    background-color: red;
+    position:relative;
+    animation-name: div1;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes div1{
+    from{
+        left: 0px;
+        background-color: red;
+    }
+    to{
+        left: 200px;
+        background-color: chartreuse;
+    }
+}
+#d2{
+    background-color:rgb(255, 0, 191);
+    position:relative;
+    animation-name: div2;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes div2{
+    from{
+        left: 10px;
+        background-color:rgb(255, 0, 191) ;
+    }
+    to{
+        left: 300px;
+        background-color: rgb(234, 255, 0);
+    }
+}

@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding: 0;
+}
+div{
+    height: 200px;
+    width: 200px;
+    color:white;
+}
+#imagecover{
+    background-image: url(images/pexels-photo-116675.jpeg);
+    background-size:cover;
+}
+#imagecontain{
+background-image: url(images/photo-1583121274602-3e2820c69888.avif);
+background-size: contain;
+visibility: collapse;
+}
+#imageposition{
+    background-image: url(images/premium_photo-1675531020486-1a8bd1b1c7f2.avif);
+    background-position: top;
+}

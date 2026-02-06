@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    height: 200px;
+    width: 200px; 
+    border:2px solid blue;
+    background-color: darkmagenta;
+}
+
+#boxmodel{
+    padding-top:10px;
+    padding-bottom: 15px;
+    margin: 100px;
+    border: dotted 2px red;
+}
+
+#bordersizing{
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+#contentsizing{
+    padding: 15px;
+    box-sizing: content-box;
+}
+
+#button{
+    height: 70px;
+    width: 70px;
+    padding: 10px 15px;
+    margin: 100px;
+    border:2px dotted red;
+    border-radius: 27px;
+}
+
+#button:hover{
+    background-color: red;
+}

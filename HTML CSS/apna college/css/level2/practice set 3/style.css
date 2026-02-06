@@ -1,0 +1,44 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    display: flex; 
+    align-items: center;   
+    justify-content: center;
+}
+div{
+    display: flex; 
+    align-items: center;   
+    justify-content: center;
+    border-radius: 10px;
+}
+#box1{
+    
+    height: 300px;
+    width: 200px;
+    background-color: aqua;
+    margin-right: 20px;
+    border:  2px red double;
+}
+#box2{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(89, 0, 255);
+    margin-left: 20px;
+    border:2px rgb(0, 0, 0) dashed;
+}
+h1{
+    padding:10px;
+    background-color: brown;
+    padding: 10px;
+}
+#practice{
+    margin: 40px;
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+}

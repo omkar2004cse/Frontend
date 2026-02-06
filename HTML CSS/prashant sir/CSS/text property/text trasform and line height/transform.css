@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#d1{
+    text-transform: capitalize;
+    background-color: blue;
+}
+#d2{
+    text-transform: uppercase;
+    background-color: red;
+}
+#d3{
+    text-transform: lowercase;
+    background-color: fuchsia;
+}
+#d4{
+    line-height: 30px;
+    background-color: chartreuse;
+    text-decoration: dashed crimson;
+}
+#d5{
+    line-height: 7px;
+    background-color: chocolate;
+    text-decoration: wavy yellowgreen;
+}

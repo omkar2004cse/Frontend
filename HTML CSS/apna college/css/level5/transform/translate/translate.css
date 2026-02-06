@@ -1,0 +1,40 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+#d1{
+    background-color: aqua;
+}
+#d1:hover{
+    transform: translate(50px);
+}
+#d2{
+    background-color: red;
+}
+#d2:active{
+    transform: translateX(60px);
+}
+#d3{
+    background-color: blue;
+}
+#d3:hover{
+    transform: translateY(50px);
+}
+#d4{
+    background-color: greenyellow;
+}
+#d4:active{
+    transform: translate(30px,40px);
+}

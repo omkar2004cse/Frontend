@@ -1,0 +1,34 @@
+*{ 
+    margin:0% ;
+    padding: 0%;
+}
+body{
+    height: 100%;
+    width: 100%;
+
+}  
+div{
+    height: 100px;
+    width: 100px;
+    background-color: chartreuse;
+   
+}
+
+@media(width:503px)
+{
+    div{
+        background-color: rgb(102, 0, 255);
+    }
+}
+@media(min-width:600px)
+{
+    div{
+        background-color: rgb(255, 89, 0);
+    }
+}
+@media(max-width:500px)
+{
+    div{
+        background-color: darkgreen;
+    }
+}

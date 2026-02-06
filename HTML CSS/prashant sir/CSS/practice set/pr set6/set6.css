@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#head{
+    background-color: rgb(155, 255, 155);
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.box{
+    padding: 5px;
+}
+.box a{
+    text-decoration: none;
+}
+
+#outer{
+    
+    margin-left: 100px;
+    margin-top: 20px;
+    height: 500px;
+    width: 500px;
+    border: 4px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#inner{
+    height: 250px;
+    width: 250px;
+    background-image: url(photo-1737467042207-7fc6318d3e5b.avif);
+    background-size: cover;
+}
+
+
+#shrink{
+    margin-top: 100px;
+    margin-left: 100px;
+    height: 300px;
+    width: 500px;
+    border: 4px solid black;
+    display: flex;
+}
+.bo{
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    border: 2px dashed black;
+}
+#bo1{
+    background-color: red;
+    flex-shrink: 0;
+}
+#bo2{
+    background-color: deeppink;
+    flex-shrink: 2;
+}
+#bo3{
+    background-color: blue;
+    flex-shrink: 0;
+}
+#bo4{
+    background-color: darkorange;
+    flex-shrink: 3;
+}
+#grow{
+    margin-left: 100px;
+    margin-top: 50px;
+    height: 500px;
+    width: 900px;
+    border: 4px solid magenta;
+    display: flex;
+
+}
+#box1{
+    background-color: red;
+    flex-grow: 0.2;
+}
+#box2{
+    background-color: dodgerblue;
+    flex-grow: 2;
+}
+#box3{
+    background-color: chartreuse;
+    flex-grow: 0;
+}
+#box4{
+    background-color: darkmagenta;
+    flex-grow: 4;
+}
+
+#div{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    background-color:green;
+}
+@media screen and (max-width:300px) {
+    #div{
+        background-color: greenyellow;
+        margin: 200px;
+    }
+    
+}
+@media screen and (min-width:300px) and (max-width:400px) {
+    #div{
+        background-color: red;
+    }
+}
+
+@media screen and (min-width:400px) {
+    #div{
+        background-color: blue;
+        margin: 100px;
+    }
+    
+}

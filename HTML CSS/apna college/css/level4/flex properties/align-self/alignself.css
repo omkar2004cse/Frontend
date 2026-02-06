@@ -1,0 +1,41 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+ 
+}
+#container{
+    height: 500px;
+    width: 800px;
+    display: flex;
+    
+}
+#box1{
+    background-color: red;
+    align-self: center;
+}
+#box2{
+    background-color: green;
+    align-self: flex-end;
+}
+#box3{
+    background-color: blue;
+    align-self: flex-start;
+}
+#box4{
+    background-color: rgb(255, 32, 222);
+    align-self: flex-end;
+}
+#box5{
+    background-color: blueviolet;
+    align-self: center;
+}

@@ -1,0 +1,50 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+#d1{
+    background-color: aqua;
+    transition: all 5s steps(5);
+}
+#d1:hover{
+    background-color: red;
+    transform: scale(2);
+}
+#d2{
+    background-color: brown;
+    transition: all 7s ease-in-out;
+    
+}
+#d2:active{
+    background-color: chartreuse;
+    transform: scale(3);
+    rotate: 90deg;
+}
+#d3{
+    background-color: blue;
+    transition: all 5s linear;
+}
+#d3:hover{
+    transform: scaleX(2);
+    background-color: darkorange;
+}
+#d4{
+    background-color: rgb(255, 206, 31);
+    transition: all 5s ease-in-out;
+}
+#d4:hover{
+    background-color: deeppink;
+    transform: scaleY(2);
+}

@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    height:100px;
+    width: 100px;
+}
+#padding{
+    padding:10px;
+    border: 2px solid black;
+}
+#margin{
+    margin: 30px;
+    border:2px dashed black
+}
+#border{
+    border:2px dotted black;
+}
+#borderadius{
+    border: 2px solid black;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-top: 30px;
+}

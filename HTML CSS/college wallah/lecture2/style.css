@@ -1,0 +1,43 @@
+*{
+   margin: 0%;
+   padding: 0%;
+   height: 100%;
+   width: 100%;
+}
+body{
+    background-color: rgb(136, 255, 255);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 30%;
+   font-size: xx-large;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+#box1{
+    /* text-align: center; */
+    background-color: rgb(212, 130, 130);
+   
+}
+#box2{
+    /* /* text-align: center; */
+    background-color: aqua;
+}
+/* h1{
+    text-align: center;
+    width: 50%;
+
+    color: red;
+    background-color: blue;
+} */
+/* p{
+    color: brown;
+} */

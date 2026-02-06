@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#task1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+#task2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+#outer{
+    font-size: 50px;
+}
+#inner{
+    font-size: 13px; 
+}
