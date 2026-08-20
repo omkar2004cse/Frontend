@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: burlywood;
+    font-family: sans-serif;
+}
+h1{
+    font-size: xx-large;
+}
+p{
+    background-color: cornflowerblue;
+}
